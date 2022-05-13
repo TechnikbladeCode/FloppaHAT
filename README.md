@@ -13,7 +13,7 @@ gcc, python, ruby, git
 To Install Type:
 
 <code>
-  gitclone https://github.com/TechnikbladeCode/FloppaHAT/
+  git clone https://github.com/TechnikbladeCode/FloppaHAT/
 </code>
 <br>
 <code>
