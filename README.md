@@ -17,7 +17,7 @@ To Install Type:
 </code>
 <br>
 <code>
-  cd FlopplaHAT/ && gcc compile -o FloppaHAT
+  cd FloppaHAT/ && gcc compile -o FloppaHAT
 </code>
 <br>
 <code>
